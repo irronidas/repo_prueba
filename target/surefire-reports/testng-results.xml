@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-03-23T14:37:47Z" name="Surefire suite" finished-at="2020-03-23T14:38:19Z" duration-ms="32455">
+    <groups>
+    </groups>
+    <test started-at="2020-03-23T14:37:47Z" name="Surefire test" finished-at="2020-03-23T14:38:19Z" duration-ms="32455">
+      <class name="Test01.MercuryToursTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Test01.MercuryToursTest@78186a70]" started-at="2020-03-23T11:38:03Z" name="setUp" finished-at="2020-03-23T11:38:14Z" duration-ms="10923" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="registrar_usuario()[pri:0, instance:Test01.MercuryToursTest@78186a70]" started-at="2020-03-23T11:38:14Z" name="registrar_usuario" finished-at="2020-03-23T11:38:19Z" duration-ms="5074" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrar_usuario -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Test01.MercuryToursTest@78186a70]" started-at="2020-03-23T11:38:19Z" name="tearDown" finished-at="2020-03-23T11:38:19Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test01.MercuryToursTest -->
+      <class name="Test01.Buscar_en_googleTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Test01.Buscar_en_googleTest@5d11346a]" started-at="2020-03-23T11:37:47Z" name="setup" finished-at="2020-03-23T11:37:58Z" duration-ms="10874" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Testgoole()[pri:0, instance:Test01.Buscar_en_googleTest@5d11346a]" started-at="2020-03-23T11:37:58Z" name="Testgoole" finished-at="2020-03-23T11:37:59Z" duration-ms="1267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testgoole -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:Test01.Buscar_en_googleTest@5d11346a]" started-at="2020-03-23T11:37:59Z" name="TearDown" finished-at="2020-03-23T11:38:03Z" duration-ms="4310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- Test01.Buscar_en_googleTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

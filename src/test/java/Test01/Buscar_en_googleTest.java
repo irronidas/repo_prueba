@@ -1,20 +1,31 @@
 package Test01;
 
-import static org.junit.Assert.assertEquals;
+
+import org.testng.annotations.*;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import java.util.concurrent.TimeUnit;
+
+/*
+import java.util.concurrent.TimeUnit;
+import org.junit.jupiter.api.*;
+//import static org.junit.jupiter.api.Assertions.assertEquals;
+
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
+//import static org.junit.Assert.assertEquals;
+*/
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class buscar_en_google {
+public class Buscar_en_googleTest {
 	private WebDriver Driver;
 		
-		@Before
+		@BeforeTest
 		public void setup() {
 			//DesiredCapabilities caps = new DesiredCapabilities();
 			System.setProperty("webdriver.chrome.driver", "driver/chromedriver.exe");
@@ -32,11 +43,10 @@ public class buscar_en_google {
 			buscar.submit();
 			Driver.manage().timeouts().implicitlyWait(1000, TimeUnit.SECONDS);
 			
-		assertEquals("Ikki - Buscar con Google", Driver.getTitle());
+		   assertEquals("Ikki - Buscar con Google", Driver.getTitle());
 		}
 		
-		@After
-		
+		@AfterClass
 		public void TearDown(){
 			Driver.close();
 		}
